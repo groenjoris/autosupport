@@ -50,9 +50,9 @@ export default function ShopifySetupPage() {
             <span className="font-medium text-foreground">{handle}.myshopify.com</span> is now
             linked to AutoSupport.
           </p>
-          <Button asChild className="w-full">
-            <Link href="/onboarding">Back to setup</Link>
-          </Button>
+          <Link href="/onboarding" className="w-full">
+            <Button className="w-full">Back to setup</Button>
+          </Link>
         </div>
       </div>
     );
